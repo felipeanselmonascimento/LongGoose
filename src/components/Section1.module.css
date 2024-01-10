@@ -1,0 +1,36 @@
+.sectionn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45rem;
+    /* position:relative;
+    overflow-y: hidden; */
+}
+
+.sectionn img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+    /* background-color: blueviolet; */
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    position: absolute;
+}
+
+.container h1 {
+    font-size: 8rem;
+    color: var(--gray-300);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+/* 
+.container img {
+    width: 300px;   
+    height: 300px;
+} */

@@ -1,0 +1,71 @@
+.div {
+    /* margin: 10rem; */
+    position: relative;
+    background-color: transparent;
+    height: 85rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.div img{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.div h2 {
+    border-radius: 10px;
+    font-size: 60px;
+    box-shadow: -5px -5px 10px;
+ }
+
+ .para {
+    width: 40rem;
+    text-align: center; 
+    margin-top: 4rem;
+    font-size: 20px;
+ }
+
+ .phases {
+    /* background-color:aqua; */
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 7rem;
+ }
+
+ .filho1 {
+    display: flex;
+    align-items:start;
+    flex-direction: column;
+    justify-content:center;
+    gap: 3rem;
+ }
+
+ .filho2 {
+    display: flex;
+    align-items:start;
+    flex-direction: column;
+    justify-content:center;
+    gap: 3rem;
+ }
+
+.phase {
+    border-radius: 15px;
+    width: 400px;
+    padding: 15px;
+    box-shadow: rgb(114, 114, 114) 0px 0px 10px 5px inset;
+    /* background-color: rgb(114, 114, 114); */
+}
+
+.phase h1 {
+    font-size: 50px;
+} 
+
+.phase p {
+    font-size: 20px;
+}
