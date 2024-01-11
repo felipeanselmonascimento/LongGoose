@@ -69,3 +69,50 @@
 .phase p {
     font-size: 20px;
 }
+
+
+@media (max-width: 440px) {
+
+    .div {
+        /* margin: 10rem; */
+        position: relative;
+        background-color: transparent;
+        height: 118rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+    .div img{
+        position: relative;
+        width: 300px;
+        height: 300px;
+    }
+
+    .para {
+        width: 20rem;
+        text-align: center; 
+        margin-top: 4rem;
+        font-size: 20px;
+     }
+
+     .phases {
+        /* background-color:aqua; */
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 30rem;
+     }
+
+     .phase {
+        border-radius: 15px;
+        width: 350px;
+        padding: 15px;
+        box-shadow: rgb(114, 114, 114) 0px 0px 10px 5px inset;
+        /* background-color: rgb(114, 114, 114); */
+    }
+  }
+  

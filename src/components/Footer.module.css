@@ -38,3 +38,50 @@
     height: 50px;
     width: 80px;
 }
+
+
+@media (max-width: 440px) {
+
+    .images {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+    .images img{
+        position: relative;
+        background-color: white;
+        height: 40px;
+        width: 50px;
+        box-shadow: -5px -5px 10px;
+    }
+
+    .fim {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        height: 100%;
+        width: 100%;
+    }
+
+    .fim h1 {
+        font-size: 10px;
+    }
+
+    .fim p {
+        font-size: 10px;
+    }
+
+    .div {
+        position: relative;
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,33,66,1) 62%);
+        height: 20rem;
+        width: 100%;
+    }
+
+
+  }
