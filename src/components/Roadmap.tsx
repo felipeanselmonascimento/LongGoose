@@ -19,20 +19,20 @@ export function Roadmap() {
                         <p>Launch on PancakeSwap</p>
                     </div>
                     <div className={styles.phase}>
-                    <h1>PHASE 3</h1>
-                        <p>NFT Integration</p>
-                        <p>Partnerships and Sponsorships</p>
-                        <p>Token Burn and Related Policies</p>
-                        <p>Gam release</p>
-                    </div>
-                </div>
-                <div className={styles.filho2}>
-                    <div className={styles.phase}>
-                    <h1>PHASE 2</h1>
+                        <h1>PHASE 2</h1>
                         <p>Coinmarketcap Listing</p>
                         <p>CoinGecko Listing</p>
                         <p>Dextool Listing</p>
                         <p>10,000+ Holders</p>
+                    </div>
+                </div>
+                <div className={styles.filho2}>
+                    <div className={styles.phase}>
+                        <h1>PHASE 3</h1>
+                        <p>NFT Integration</p>
+                        <p>Partnerships and Sponsorships</p>
+                        <p>Token Burn and Related Policies</p>
+                        <p>Gam release</p>
                     </div>
                     <div className={styles.phase}>
                         <h1>PHASE 4</h1>
