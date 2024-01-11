@@ -49,7 +49,7 @@ export function Section2() {
                 <div className={styles.divsec}>
                     <h1>ABOUT LONG GOOSE COIN!</h1>
                     <p>LongGoose Coin is the cryptocurrency of the future, driving the financial revolution with cutting-edge technology. Enjoy fast, efficient, and secure transactions. Our community-driven governance, focus on financial inclusion, and advanced smart contracts make LongGoose Coin the choice for a more connected world. Discover the power of innovation - acquire LongGoose Coin now! 💸🚀🌐</p>
-                    <button onClick={handleCopyClick} role="button">CONTRACT: AT LAUNCH                 <Copy size={32} /></button>
+                    <button onClick={handleCopyClick} role="button">CONTRACT: AT LAUNCH                 <Copy size={15} /></button>
                 </div>
             </div>
         </div>

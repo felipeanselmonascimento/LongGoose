@@ -15,7 +15,7 @@ export function App() {
       <Section1 />
       <div className={styles.rgb}></div>
       <div className={styles.tudo}>
-        <img src={test} alt="test" />
+        <img src={test} className={styles.imgg} alt="imgg" />
         <Section2 />
         <div className={styles.rgbb}></div>
         <Tokenomics />

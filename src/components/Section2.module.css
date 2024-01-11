@@ -120,3 +120,52 @@
   top: 0;
   border-radius: 10px;
 }
+
+@media (max-width: 440px) {
+
+  .section2 {
+    background-color: #00ffd5;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30rem;
+    top: 0px;
+  }
+
+  .divi img {
+    width: 80px;
+    height: 200px;
+  }
+
+  .text {
+    position: absolute;
+    font-size: 1rem;
+    text-align: center;
+    color: #fffb00;
+  }
+
+  .divi div {
+    margin-top: 1rem;
+    width: 150px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divsec p {
+    margin-top: 2rem;
+    font-size: 10px;
+  }
+
+  .divsec h1 {
+    font-size: 20px;
+  }
+
+  .divsec button {
+    font-size: 5px;
+    height: 30px;
+  }
+
+}
