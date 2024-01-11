@@ -54,11 +54,11 @@
     z-index: 1;
   }     
   
-  .imgg {
-    position: sticky;
+  .tudo img {
+    /* position: relative; */
     top: 0px;
     width: 100%;
-    height: 40rem;
+    height: 80rem;
   }
 
   .rgbb{
