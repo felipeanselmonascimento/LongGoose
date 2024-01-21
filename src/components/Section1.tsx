@@ -1,6 +1,6 @@
 import planofundo1 from '../assets/outracapa.jpg'
-import Longgoose1 from '../assets/face.png'
-import { Maximizar } from './Maximizar'
+// import Longgoose1 from '../assets/face.png'
+// import { Maximizar } from './Maximizar'
 import styles from './Section1.module.css'
 
 export function Section1() {
