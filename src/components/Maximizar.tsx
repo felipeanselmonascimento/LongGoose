@@ -12,7 +12,7 @@ export const Maximizar = (props: any) => {
       return () => clearInterval(intervalId);
     }, []); // O segundo argumento vazio garante que o efeito seja executado apenas uma vez
   
-    const imageSize = maximized ? '100%' : '95%'; 
+    const imageSize = maximized ? '50%' : '45%'; 
 
   return (
     <>

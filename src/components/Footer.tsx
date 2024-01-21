@@ -18,16 +18,16 @@ export function Footer () {
             <img src={img5} alt="bsc" />
           </div>
           <div className={styles.fim}>
-            <h1>JOIN THE X Payments COMMUNITY NOW AND LET THE JOURNEY BEGIN!</h1>
+            <h1>JOIN THE BABY KING BONK COMMUNITY NOW AND LET THE JOURNEY BEGIN!</h1>
             <div className={styles.images2}>
-                <a href="https://twitter.com/xpaymentsbsc">
+                <a href="https://x.com/BabyKingBonk">
                     <img src={img6} alt="X" />
                 </a>
-                <a href="https://t.me/XPaymentsbscgo">
+                <a href="https://t.me/BabyKingBonk">
                     <img src={img7} alt="tlegram" />
                 </a>
             </div>
-            <p>COPYRIGHT © 2024 $XPayments. ALL RIGHTS RESERVED</p>
+            <p>COPYRIGHT © 2024 $BabyKingBonk. ALL RIGHTS RESERVED</p>
           </div>
         </div>
     )

@@ -1,6 +1,6 @@
 // import section22 from '../assets/darkforest.jpg'
 import styles from './Section2.module.css'
-import dedao from '../assets/xpayelon.jpg'
+import dedao from '../assets/face.png'
 import AOS from 'aos'
 import { useEffect, useState } from 'react'
 import 'aos/dist/aos.css'
@@ -12,7 +12,7 @@ export function Section2() {
 
     const handleCopyClick = () => {
       // Texto que você deseja copiar
-      const textToCopy = '0x214772e3740Df7dc76011068201B994E31FbEa02';
+      const textToCopy = '0xbf4d913601cFC5A6Eac43ecE327484fB33a8fdC4';
   
       // Copia o texto para a área de transferência
       navigator.clipboard.writeText(textToCopy)
@@ -47,9 +47,9 @@ export function Section2() {
                 />
                 {isCopied && <p className={styles.text}>CONTRACT COPIED 💸🚀!</p>}
                 <div className={styles.divsec}>
-                    <h1>X PAYMENTS!</h1>
-                    <p>X Payments is the cryptocurrency of the future, driving the financial revolution with cutting-edge technology. Enjoy fast, efficient, and secure transactions. Our community-driven governance, focus on financial inclusion, and advanced smart contracts make X Payments the choice for a more connected world. Discover the power of innovation - acquire X Payments now! 💸🚀🌐</p>
-                    <button onClick={handleCopyClick} role="button">CONTRACT:0x214772e3740Df7dc76011068201B994E31FbEa02
+                    <h1>BABY KING BONK!</h1>
+                    <p>Baby King Bonk is the cryptocurrency of the future, driving the financial revolution with cutting-edge technology. Enjoy fast, efficient, and secure transactions. Our community-driven governance, focus on financial inclusion, and advanced smart contracts make Baby King Bonk the choice for a more connected world. Discover the power of innovation - acquire Baby King Bonk now! 💸🚀🌐</p>
+                    <button onClick={handleCopyClick} role="button">CONTRACT:0xbf4d913601cFC5A6Eac43ecE327484fB33a8fdC4
                     <Copy size={15} /></button>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import img from '../assets/Screenshot_5.jpg'
+import img from '../assets/face.png'
 import styles from './Roadmap.module.css'
 
 export function Roadmap() {
@@ -7,8 +7,8 @@ export function Roadmap() {
             <img src={img}
                 alt="imagem do roadmap img" />
             <h2>ROADMAP</h2>
-            <p className={styles.para}>Welcome to the exciting journey of XPayments (Xpay)! Our roadmap is a comprehensive guide outlining the strategic vision and key milestones for the development and growth of our cryptocurrency.</p>
-            <p className={styles.para}>XPayments is not just a digital asset; it's a community-driven project with a commitment to innovation, transparency, and long-term sustainability.</p>
+            <p className={styles.para}>Welcome to the exciting journey of BabyKingBonk (BabyKingBonk)! Our roadmap is a comprehensive guide outlining the strategic vision and key milestones for the development and growth of our cryptocurrency.</p>
+            <p className={styles.para}>BabyKingBonk is not just a digital asset; it's a community-driven project with a commitment to innovation, transparency, and long-term sustainability.</p>
             <div className={styles.phases}>
                 <div className={styles.filho1}>
                     <div className={styles.phase}>
