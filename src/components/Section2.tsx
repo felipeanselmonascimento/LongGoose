@@ -48,7 +48,7 @@ export function Section2() {
                 {isCopied && <p className={styles.text}>CONTRACT COPIED 💸🚀!</p>}
                 <div className={styles.divsec}>
                     <h1>X PAYMENTS!</h1>
-                    <p>X Payments is the cryptocurrency of the future, driving the financial revolution with cutting-edge technology. Enjoy fast, efficient, and secure transactions. Our community-driven governance, focus on financial inclusion, and advanced smart contracts make LongGoose Coin the choice for a more connected world. Discover the power of innovation - acquire X Payments now! 💸🚀🌐</p>
+                    <p>X Payments is the cryptocurrency of the future, driving the financial revolution with cutting-edge technology. Enjoy fast, efficient, and secure transactions. Our community-driven governance, focus on financial inclusion, and advanced smart contracts make X Payments the choice for a more connected world. Discover the power of innovation - acquire X Payments now! 💸🚀🌐</p>
                     <button onClick={handleCopyClick} role="button">CONTRACT:0xa0E35B4558A8Fc7dfF1B703FF943E7FB87C9610D
                     <Copy size={15} /></button>
                 </div>
