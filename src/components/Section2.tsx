@@ -1,6 +1,6 @@
 // import section22 from '../assets/darkforest.jpg'
 import styles from './Section2.module.css'
-import dedao from '../assets/logo X.png'
+import dedao from '../assets/xpayelon.jpg'
 import AOS from 'aos'
 import { useEffect, useState } from 'react'
 import 'aos/dist/aos.css'
@@ -12,7 +12,7 @@ export function Section2() {
 
     const handleCopyClick = () => {
       // Texto que você deseja copiar
-      const textToCopy = '0xa0E35B4558A8Fc7dfF1B703FF943E7FB87C9610D';
+      const textToCopy = '0x214772e3740Df7dc76011068201B994E31FbEa02';
   
       // Copia o texto para a área de transferência
       navigator.clipboard.writeText(textToCopy)
@@ -49,7 +49,7 @@ export function Section2() {
                 <div className={styles.divsec}>
                     <h1>X PAYMENTS!</h1>
                     <p>X Payments is the cryptocurrency of the future, driving the financial revolution with cutting-edge technology. Enjoy fast, efficient, and secure transactions. Our community-driven governance, focus on financial inclusion, and advanced smart contracts make X Payments the choice for a more connected world. Discover the power of innovation - acquire X Payments now! 💸🚀🌐</p>
-                    <button onClick={handleCopyClick} role="button">CONTRACT:0xa0E35B4558A8Fc7dfF1B703FF943E7FB87C9610D
+                    <button onClick={handleCopyClick} role="button">CONTRACT:0x214772e3740Df7dc76011068201B994E31FbEa02
                     <Copy size={15} /></button>
                 </div>
             </div>

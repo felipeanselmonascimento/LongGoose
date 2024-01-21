@@ -20,10 +20,10 @@ export function Footer () {
           <div className={styles.fim}>
             <h1>JOIN THE X Payments COMMUNITY NOW AND LET THE JOURNEY BEGIN!</h1>
             <div className={styles.images2}>
-                <a href="https://twitter.com">
+                <a href="https://twitter.com/xpaymentsbsc">
                     <img src={img6} alt="X" />
                 </a>
-                <a href="https://t.me/XPayPortal">
+                <a href="https://t.me/XPaymentsbscgo">
                     <img src={img7} alt="tlegram" />
                 </a>
             </div>
