@@ -3,7 +3,7 @@ import styles from './App.module.css'
 import { Section1 } from './components/Section1'
 import { Section2 } from './components/Section2'
 import { Tokenomics } from './components/Tokenomics'
-import test from './assets/darkforest.jpg'
+import test from './assets/logo-white.png'
 import { Roadmap } from './components/Roadmap'
 import { Footer } from './components/Footer'
 

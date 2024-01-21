@@ -18,16 +18,16 @@ export function Footer () {
             <img src={img5} alt="bsc" />
           </div>
           <div className={styles.fim}>
-            <h1>JOIN THE LONG GOOSE COMMUNITY NOW AND LET THE JOURNEY BEGIN!</h1>
+            <h1>JOIN THE X Payments COMMUNITY NOW AND LET THE JOURNEY BEGIN!</h1>
             <div className={styles.images2}>
                 <a href="https://twitter.com">
                     <img src={img6} alt="X" />
                 </a>
-                <a href="https://t.me/LongGooseCoin">
+                <a href="https://t.me/XPayPortal">
                     <img src={img7} alt="tlegram" />
                 </a>
             </div>
-            <p>COPYRIGHT © 2024 $LONG GOOSE COIN. ALL RIGHTS RESERVED</p>
+            <p>COPYRIGHT © 2024 $XPayments. ALL RIGHTS RESERVED</p>
           </div>
         </div>
     )
