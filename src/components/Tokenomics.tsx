@@ -25,7 +25,7 @@ export function Tokenomics () {
                     <p>BURNT 47,61%</p>
                 </div>
                 <div className={styles.tokenon}>
-                    <p>MARKETING 5%</p>
+                    <p>MARKETING 3%</p>
                 </div>
                 {/* <div className={styles.tokenon}>
                     <p>VESTED 10%</p>

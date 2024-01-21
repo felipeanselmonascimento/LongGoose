@@ -6,6 +6,7 @@ import { Tokenomics } from './components/Tokenomics'
 import test from './assets/fundo1.avif'
 import { Roadmap } from './components/Roadmap'
 import { Footer } from './components/Footer'
+import { Chart } from './components/Chart'
 
 
 export function App() {
@@ -21,6 +22,7 @@ export function App() {
         <Tokenomics />
         <div className={styles.rgbbe}></div>
         <Roadmap />
+        <Chart />
         <div className={styles.teste}></div>
         <Footer />
       </div>
