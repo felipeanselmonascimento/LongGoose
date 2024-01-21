@@ -1,4 +1,4 @@
-import planofundo1 from '../assets/fundo1.avif'
+import planofundo1 from '../assets/capa3.jpg'
 import Longgoose1 from '../assets/face.png'
 import { Maximizar } from './Maximizar'
 import styles from './Section1.module.css'
